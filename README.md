@@ -1,7 +1,7 @@
 # api_project_REST
 
->>This project was created during my time as a student at Code Chrysalis>>
-
+This project was created during my time as a student at Code Chrysalis
++++++++++++++++++++++++
 Game Searcher REST API
 
 This API serves the following endpoints:
