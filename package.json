@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ninamatti/api_project_REST/issues"
   },
-  "homepage": "https://github.com/ninamatti/api_project_REST#readme"
+  "homepage": "https://github.com/ninamatti/api_project_REST#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
