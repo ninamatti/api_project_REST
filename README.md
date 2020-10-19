@@ -4,7 +4,7 @@ This project was created during my time as a student at Code Chrysalis
 
 +++++++++++++++++++++++
 
-Game Searcher REST API
+## Game Searcher REST API
 
 This API serves the following endpoints:
 
