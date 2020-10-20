@@ -7,6 +7,77 @@
     <title>Document</title>
 </head>
 <body>
+    
+    <div id="wrapper">
+    <h1>Game Searcher REST API</h1>
+    <p id='explanation'>
+        <div class="explanation_text title" id="intro">
+            This API serves the following endpoints:
+        </div>
+        <div class="route_element">
+            <div class="input_wrapper">
+                <input type="text" class="route" placeholder="GET /gamesearcher/">
+                <button id='button'>GET</button>
+            </div>
+            <div class="explanation_text">
+                -> serves a list of all games in the database
+            </div>
+        </div>
+        <div class="route_element">
+            <div class="route">
+                GET /gamesearcher/:gamename
+            </div>
+            <div class="explanation_text">
+                -> serves all info on a game with a certain name
+            </div>
+        </div>
+        <div class="route_element">
+            <div class="route">
+                GET /gamesearcher/genres/:genrename
+            </div>
+            <div class="explanation_text">
+                -> serves a list of all games for a certain genre
+            </div>
+        </div>
+        <div class="route_element">
+            <div class="route">
+                GET /gamesearcher/developers/:developername
+            </div>
+            <div class="explanation_text">
+                -> Serves a list of all games published by a certain developer
+            </div>
+        </div>
+        <div class="route_element">
+            <div class="route">
+                POST /gamesearcher/:gamename/:developer_name/:genre
+            </div>
+            <div class="explanation_text">
+                -> creates a new game entry with the three given parameters
+            </div>
+        </div>
+        <div class="route_element">
+            <div class="route">
+                PATCH /gamesearcher/:gamename/:newgamename
+            </div>
+            <div class="explanation_text">
+                -> Updates the name of a game with a new name
+            </div>
+        </div>
+        <div class="route_element">
+            <div class="route">
+                DELETE /gamesearcher/:gamename
+            </div>
+            <div class="explanation_text">
+                -> Deletes a game with the given name
+            </div>
+        </div>
+        
+    </p>
+    <p id="github_section">
+    <link>
+        This project is also on GitHub! Visit <a id='github_link' href=https://github.com/ninamatti/api_project_REST/blob/main/README.md>https://github.com/ninamatti/api_project_REST/blob/main/README.md</link>
+    </p>
+    </div>
     <script src="client.js"></script>
 </body>
 </html>
